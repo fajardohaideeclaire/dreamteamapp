@@ -20,7 +20,7 @@ fun BioStudent3Screen() {
         verticalArrangement = Arrangement.Center
     ) {
         Image(
-            painter = painterResource(id = R.drawable.student3.jpg),
+            painter = painterResource(id = R.drawable.student3),
             contentDescription = "Student 3 Photo",
             modifier = Modifier
                 .size(140.dp)
@@ -37,7 +37,7 @@ fun BioStudent3Screen() {
         Spacer(modifier = Modifier.height(8.dp))
 
         Text(
-            text = "I'm Frenz Dave B. Dacillo, currently a 3rd year BSIT student, 21 years old. Learning Java, PHP, HTML, JavaScript and more.,
+            text = "I'm Frenz Dave B. Dacillo, currently a 3rd year BSIT student, 21 years old. Learning Java, PHP, HTML, JavaScript, and more.",
             style = MaterialTheme.typography.bodyLarge
         )
     }
