@@ -1,3 +1,5 @@
+package com.example.dreamteamapp.bios
+
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
